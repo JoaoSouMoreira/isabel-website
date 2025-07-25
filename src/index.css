@@ -3,9 +3,15 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --color-scheme-1: #a67a5b;
+  --color-scheme-2: #c19770;
+  --color-scheme-3: #d5b895;
+  --color-scheme-4: #faf0dc;
+  --color-scheme-5: #e8dcb5;
+
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-scheme-1);
+  background-color: var(--color-scheme-4);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,11 +21,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--color-scheme-2);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--color-scheme-3);
 }
 
 body {
@@ -47,32 +53,16 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--color-scheme-2);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.secondary-color { 
-  color: #888;
-}
-
-.social-media-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    color: var(--color-scheme-1);
+    background-color: var(--color-scheme-4);
   }
 }
