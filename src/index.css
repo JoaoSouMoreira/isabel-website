@@ -3,15 +3,16 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --color-scheme-1: #a67a5b;
-  --color-scheme-2: #c19770;
-  --color-scheme-3: #d5b895;
-  --color-scheme-4: #faf0dc;
-  --color-scheme-5: #e8dcb5;
+  --color-scheme-1: #736b5a;
+  --color-scheme-2: #a67a5b;
+  --color-scheme-3: #c19770;
+  --color-scheme-4: #d5b895;
+  --color-scheme-5: #faf0dc;
+  --color-scheme-6: #e8dcb5;
 
   color-scheme: light dark;
   color: var(--color-scheme-1);
-  background-color: var(--color-scheme-4);
+  background-color: var(--color-scheme-5);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -48,7 +49,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--color-scheme-2);
   cursor: pointer;
   transition: border-color 0.25s;
 }

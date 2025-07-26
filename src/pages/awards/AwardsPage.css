@@ -1,0 +1,14 @@
+.awards-container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.awards-image {
+  width: 700px;
+}
+
+.awards-text {
+  font-size: 1.5rem;
+}

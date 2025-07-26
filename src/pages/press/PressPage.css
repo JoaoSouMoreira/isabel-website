@@ -1,0 +1,9 @@
+.press-container { 
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.press-image {
+  margin-bottom: 1rem;
+}

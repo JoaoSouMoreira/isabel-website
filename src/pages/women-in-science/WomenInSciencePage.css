@@ -1,0 +1,13 @@
+.women-in-science-container { 
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.women-in-science-image {
+  margin-bottom: 1rem;
+}
+
+.women-in-science-text {
+  font-size: 1.5em;
+}

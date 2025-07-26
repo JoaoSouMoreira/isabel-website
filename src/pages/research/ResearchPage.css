@@ -1,0 +1,16 @@
+.research-container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.research-image {
+    width: 700px;
+}
+
+.research-text {
+  font-size: 1.5rem;
+  color: var(--color-scheme-2);
+  text-align: center;
+}

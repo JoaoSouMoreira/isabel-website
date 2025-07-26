@@ -1,0 +1,19 @@
+.contact-container { 
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 1rem;
+  width: 700px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  margin-left: 1rem;
+}
+
+span {
+  padding: 0.5rem;
+}

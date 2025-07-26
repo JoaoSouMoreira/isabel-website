@@ -1,0 +1,12 @@
+.personal-container { 
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  width: 500px;
+}
+
+.personal-text {
+  font-size: 1.5em;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
