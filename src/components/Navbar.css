@@ -18,9 +18,13 @@ li {
   font-size: 1.2em;
   text-align: center;
   margin: 0.5em 0;
-  width: 240px;
+  width: 250px;
 }
 
 a {
   padding: 0.5em;
+}
+a.active {
+  color: var(--color-scheme-1);
+  font-weight: bold;
 }
