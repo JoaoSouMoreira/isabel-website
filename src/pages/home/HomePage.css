@@ -1,8 +1,9 @@
 .home-container {
+  width: 1064px;
+  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem;
 }
 
 h1 {
@@ -37,4 +38,65 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .home-container {
+    width: 100%;
+    max-width: 768px;
+    padding: 1.5rem 1rem;
+  }
+  
+  .home-text-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    height: 20em;
+    padding: 0.5em;
+  }
+  
+  .welcome-text {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .card {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  .home-container {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+  
+  .profile-image {
+    height: 15em;
+    padding: 0.5em;
+  }
+  
+  .welcome-text {
+    padding: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .card {
+    font-size: 1rem;
+  }
+  
+  .card p {
+    text-align: left;
+  }
 }

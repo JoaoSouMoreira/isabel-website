@@ -1,5 +1,5 @@
 nav {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .navbar-title {
@@ -8,12 +8,12 @@ nav {
   margin-bottom: 1rem;
 }
 
-ul {
+.navbar-list {
   margin: 0;
   padding: 0;
 }
 
-li {
+.navbar-item {
   list-style: none;
   font-size: 1.2em;
   text-align: center;
@@ -21,10 +21,44 @@ li {
   width: 250px;
 }
 
-a {
+.navbar-item a {
   padding: 0.5em;
 }
-a.active {
+.navbar-item a.active {
   color: var(--color-scheme-1);
   font-weight: bold;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .navbar-title {
+    font-size: 1.5em;
+  }
+  
+  .navbar-item {
+    font-size: 1.1em;
+    width: 200px;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  nav {
+    margin-top: 1rem;
+  }
+  
+  .navbar-title {
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .navbar-item {
+    font-size: 1em;
+    width: 150px;
+    margin: 0.3em 0;
+  }
+  
+  .navbar-item a {
+    padding: 0.3em;
+  }
 }

@@ -1,12 +1,39 @@
 .personal-container { 
+  width: 1064px;
+  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
-  width: 500px;
 }
 
 .personal-text {
   font-size: 1.5em;
   margin-left: 5rem;
   margin-top: 2rem;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .personal-container {
+    width: 100%;
+    max-width: 768px;
+    padding: 1.5rem 1rem;
+  }
+  
+  .personal-text {
+    font-size: 1.3em;
+    margin-left: 2rem;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  .personal-container {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+  
+  .personal-text {
+    font-size: 1.1em;
+    margin-left: 1rem;
+  }
 }

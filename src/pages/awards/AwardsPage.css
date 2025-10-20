@@ -1,14 +1,61 @@
-.awards-container { 
+.awards-container {
+  width: 1064px;
+  margin-left: 2rem;
+  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem 1rem;
+  align-items: flex-start;
+  font-size: 1.5rem;
+}
+
+.awards-container ul {
+  padding-left: 1rem;
 }
 
 .awards-image {
   width: 700px;
+  margin-bottom: 2rem;
 }
 
 .awards-text {
   font-size: 1.5rem;
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .awards-container {
+    width: 100%;
+    max-width: 768px;
+    margin-left: 1rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .awards-image {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .awards-text {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+  .awards-container {
+    width: 100%;
+    margin-left: 0.5rem;
+    padding: 1rem 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .awards-image {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .awards-text {
+    font-size: 1.1rem;
+  }
 }

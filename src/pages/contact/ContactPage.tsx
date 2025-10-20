@@ -7,9 +7,6 @@ const ContactPage = () => {
       <img src={contactImage} width="400px" className="contact-image" alt="Contact" />
       <div className="contact-text">
         <a href="mailto:isabel.scastanho@gmail.com">Send me an email</a>
-        <span className="contact-text-soon">
-          More coming soon...
-        </span>
       </div>
     </div>
   )

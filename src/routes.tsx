@@ -1,6 +1,6 @@
 import AwardsPage from "./pages/awards/AwardsPage";
 import ContactPage from "./pages/contact/ContactPage";
-import CVPage from "./pages/cv/CVPage";
+import ResumePage from "./pages/resume/ResumePage";
 import HomePage from "./pages/home/HomePage";
 import PersonalPage from "./pages/personal/PersonalPage";
 import PressPage from "./pages/press/PressPage";
@@ -13,6 +13,7 @@ interface Route {
   component: React.ComponentType;
   index?: boolean;
   title?: string;
+  shouldHide?: boolean;
 }
 
 export const routes: Route[] = [
@@ -27,42 +28,43 @@ export const routes: Route[] = [
     path: "/research",
     name: "Research & Publications",
     component: ResearchPage,
-    index: true,
+    index: false,
   },
   {
     path: "/awards",
     name: "Awards & Leadership",
     component: AwardsPage,
-    index: true,
+    index: false,
   },
   {
     path: "/press",
-    name: "Press",
+    name: "Press & Media",
     component: PressPage,
-    index: true,
+    index: false,
   },
   {
     path: "/women-in-science",
     name: "Women in Science",
     component: WomenInSciencePage,
-    index: true,
+    index: false,
   },
   {
-    path: "/cv",
-    name: "CV",
-    component: CVPage,
-    index: true,
+    path: "/resume",
+    name: "Resume",
+    component: ResumePage,
+    index: false,
   },
   {
     path: "/personal",
     name: "Personal",
     component: PersonalPage,
-    index: true,
+    index: false,
+    shouldHide: true,
   },
   {
     path: "/contact",
     name: "Contact",
     component: ContactPage,
-    index: true,
+    index: false,
   },
 ];
