@@ -9,10 +9,11 @@
   --color-scheme-4: #d5b895;
   --color-scheme-5: #faf0dc;
   --color-scheme-6: #e8dcb5;
+  --color-scheme-7: #fcf9f4;
 
   color-scheme: light dark;
   color: var(--color-scheme-1);
-  background-color: var(--color-scheme-5);
+  background-color: var(--color-scheme-7);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
